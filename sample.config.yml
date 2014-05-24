@@ -1,0 +1,13 @@
+---
+gmail:
+  account: your_account@gmail.com
+  password: your_password
+queries:
+  - summary: "BMW M3 in LA"
+    source: http://losangeles.craigslist.org/search/cto?query=bmw&s=0&format=rss
+    regex: (08|09|10|11)\b.+m3|m3.+(08|09|10|11)\b
+    email: your_email@gmail.com
+  - summary: "BMW 335 in LA"
+    source: http://losangeles.craigslist.org/search/cto?query=bmw&s=0&format=rss
+    regex: (08|09|10|11)\b.+335|335.+(08|09|10|11)\b
+    email: your_email@gmail.com
